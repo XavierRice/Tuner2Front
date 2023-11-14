@@ -16,7 +16,7 @@ function Album({ album }) {
           {album.album_artist}
       </td>
       <td>
-        <Link to={`/album/${album.id}`}>✏️</Link>
+        <Link to={`/albums/${album.id}`}>✏️</Link>
       </td>
     </tr>
   );
